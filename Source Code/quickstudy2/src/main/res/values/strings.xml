@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickStudy</string>
+    <string name="app_info">App Info</string>
+    <string name="app_contact">Contact Us</string>
+    <string name="app_help">Help</string>
+    <string name="app_filter">Filter</string>
+    <string name="app_google">Map</string>
+
+    <string name="endtag">CENG319 © CENGBOIZ 2017</string>
+
+    <string name="name_create">Name</string>
+    <string name="subject_create">Subject</string>
+    <string name="time_create">Select Time Closure</string>
+    <string name="post_create">POST</string>
+
+</resources>
