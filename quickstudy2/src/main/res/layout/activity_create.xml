@@ -23,7 +23,17 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="@string/subject_create" />
+        android:hint="@string/subject_create"
+        android:maxLength="20"/>
+
+    <EditText
+        android:id="@+id/infoCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/info_create"
+        android:maxLength="40"/>
 
     <Space
         android:layout_width="match_parent"
@@ -33,9 +43,24 @@
         android:id="@+id/timeCreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/time_create"
         android:gravity="center"
-        android:textSize="30dp"/>
+        android:hint="@string/time_create"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/clock"
+        android:id="@+id/clock"/>
+
+
+    <TextView
+        android:id="@+id/clock_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"/>
 
     <Space
         android:layout_width="match_parent"

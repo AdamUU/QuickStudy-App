@@ -2,7 +2,7 @@
 QuickStudy
 Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
-Ace Eroma -
+Acefiel Eroma - N01101571
 */
 
 package cengboiz.quickstudy;
