@@ -1,1 +1,1 @@
-include ':app', ':quickstudy2'
+include ':app', ':QuickStudy', ':LocatinReverseGeoV2'
