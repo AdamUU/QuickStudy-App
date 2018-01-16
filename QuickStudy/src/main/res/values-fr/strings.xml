@@ -12,7 +12,6 @@
     <string name="post_create">POSTER</string>
     <string name="post_info">Publier des informations</string>
     <string name="post_validation">S\'il vous plaît remplir tout, y compris la fermeture de temps. Les informations supplémentaires sont facultatives.</string>
-    <string name="subject_create">Sujet (Max 20 caractères.)</string>
     <string name="subject_spinner">Sujet</string>
     <string name="time_create">Sélectionnez La Fermeture Du Temps</string>
     <string name="title_activity_maps">Carte</string>
@@ -21,4 +20,18 @@
     <string name="create_session">Créer Une Session</string>
     <string name="open">Ouvrir</string>
     <string name="close">Fermer</string>
+    <string name="Recurring_Event">Planificateur récurrent</string>
+    <string name="settings">Paramètres</string>
+    <string name="subject_create">Sujet (Max 20 caractères)</string>
+    <string name="title_recurring">Sélectionnez les jours où vous souhaitez planifier un événement</string>
+    <string name="lang_change">Changer De Langue - Anglais : Français</string>
+    <string name="date_create">Sélectionner Une Date</string>
+    <string name="help_app">Q. Comment l\'utiliser? R. Il y a deux façons - vous pouvez créer une session pour que les gens viennent à vous ou en trouver une à travers les listes d\'hôtes. Q. Dois-je payer? R. Non. Q. Puis-je trouver une session n\'importe où? R. L\'application a un rayon de 0,5 km pour suivre les autres sessions.</string>
+    <string name="info_app">QuickStudy est une application éducative Android pour les étudiants qui sont à la recherche, ou à l\'aide de fournir des sessions d\'étude.</string>
+    <string name="internet_perm">Accès Internet requis pour créer / rechercher des sessions.</string>
+    <string name="qs_info">Informations sur l\'étude rapide</string>
+    <string name="perm_check">Accès Internet et services de localisation requis pour naviguer dans les sessions.</string>
+    <string name="ok">D\'accord</string>
+    <string name="no_internet">Aucune connexion Internet trouvée.</string>
+    <string name="contact_app">Adam Warrington - adamW@quickstudy.ca Ruel John Cootauco - rueljC@quickstudy.ca Raymond Dang - raymondD@quickstudy.ca Pour plus de renseignements, visitez notre site web quickstudy.ca</string>
 </resources>

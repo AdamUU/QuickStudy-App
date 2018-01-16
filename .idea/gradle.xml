@@ -10,8 +10,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/LocationServices" />
             <option value="$PROJECT_DIR$/QuickStudy" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appmap" />
+=======
+>>>>>>> Ruel
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

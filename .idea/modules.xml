@@ -4,12 +4,16 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LocationServices/LocationServices.iml" filepath="$PROJECT_DIR$/LocationServices/LocationServices.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickStudy/QuickStudy.iml" filepath="$PROJECT_DIR$/QuickStudy/QuickStudy.iml" />
+<<<<<<< HEAD
       <module fileurl="file://C:\Users\OWNER\Desktop\QuickStudy-App-master\QuickStudy\QuickStudy.iml" filepath="C:\Users\OWNER\Desktop\QuickStudy-App-master\QuickStudy\QuickStudy.iml" />
       <module fileurl="file://C:\Users\OWNER\Desktop\QuickStudy-App-master\QuickStudy-App.iml" filepath="C:\Users\OWNER\Desktop\QuickStudy-App-master\QuickStudy-App.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickStudy-App-master.iml" filepath="$PROJECT_DIR$/QuickStudy-App-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\OWNER\Desktop\QuickStudy-App-master\app\app.iml" filepath="C:\Users\OWNER\Desktop\QuickStudy-App-master\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/appmap/appmap.iml" filepath="$PROJECT_DIR$/appmap/appmap.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/QuickStudy-App - Copy.iml" filepath="$PROJECT_DIR$/QuickStudy-App - Copy.iml" />
+>>>>>>> Ruel
     </modules>
   </component>
 </project>

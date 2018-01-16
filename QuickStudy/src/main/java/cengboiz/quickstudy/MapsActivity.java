@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-
+// Team Name: cengboiz
 package cengboiz.quickstudy;
 
 import android.content.Intent;
@@ -62,9 +62,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         ArrayList<String> denied = permissionManager.getStatus().get(0).denied;
 
         for(String item:denied) {
-            Toast.makeText(this,"Location Services required to navigate sessions.", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(Intent.ACTION_MAIN);
-            intent.addCategory(Intent.CATEGORY_HOME);
+            Toast.makeText(this, R.string.perm_check, Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);
         }
 

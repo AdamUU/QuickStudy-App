@@ -8,7 +8,11 @@
     tools:context="cengboiz.quickstudy.RecurringEvent">
 
     <CalendarView
+<<<<<<< HEAD
         android:id="@+id/calendarView"
+=======
+        android:id="@+id/createView"
+>>>>>>> Ruel
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:visibility="visible"

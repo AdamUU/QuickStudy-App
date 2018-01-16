@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-
+// Team Name: cengboiz
 package cengboiz.quickstudy;
 
 import android.content.DialogInterface;
@@ -27,9 +27,6 @@ public class MainActivity extends AppCompatActivity {
     ImageButton createButton, findButton, mapButton;
     DrawerLayout mDrawerLayout;
     ActionBarDrawerToggle mToggle;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,19 +54,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
-                    case(R.id.create_nav):
-                        Intent ci = new Intent(getApplicationContext(),CreateActivity.class);
-                        startActivity(ci);
+
+                    case(R.id.create_recurring):
+                    Intent recurringIntent = new Intent(getApplicationContext(), RecurringEvent.class);
+                        startActivity(recurringIntent);
                         break;
 
-                    case(R.id.find_nav):
-                        Intent fi = new Intent(getApplicationContext(),FindActivity.class);
-                        startActivity(fi);
-                        break;
-
-                    case(R.id.map_nav):
-                        Intent mi = new Intent(getApplicationContext(),MapsActivity.class);
-                        startActivity(mi);
+                    case(R.id.settings_activity):
+                        Intent settingsIntent = new Intent(getApplicationContext(), SettingsActivity.class);
+                        startActivity(settingsIntent);
                         break;
 
                     default:
@@ -82,10 +75,8 @@ public class MainActivity extends AppCompatActivity {
         createButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent newActivity = new Intent(MainActivity.this, CreateActivity.class);
+                    Intent newActivity = new Intent(getApplicationContext(), CreateActivity.class);
                     startActivity(newActivity);
-
-
 
             }
         });
@@ -93,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         findButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent newActivity = new Intent(MainActivity.this, FindActivity.class);
+                    Intent newActivity = new Intent(getApplicationContext(), FindActivity.class);
                     startActivity(newActivity);
             }
         });
@@ -101,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent newActivity = new Intent(MainActivity.this, MapsActivity.class);
+                    Intent newActivity = new Intent(getApplicationContext(), MapsActivity.class);
                     startActivity(newActivity);
             }
         });
@@ -137,9 +128,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void appInfo(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("QuickStudy Information");
-        builder.setMessage("QuickStudy is an educational android app for students who are in search, or in aid of providing study sessions.");
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setTitle(R.string.qs_info);
+        builder.setMessage(R.string.info_app);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
             }
@@ -152,9 +143,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void appHelp(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("Help");
-        builder.setMessage("Q. How do I use this?\nA. There are two ways - you can create a session for people to come to you, or find one through the lists of hosts.\n\nQ. Do I need to pay?\nA. No.\n\nQ. Can I find any session anywhere?\nA. The app has a 0.5km radius to track other sessions.");
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setTitle(R.string.app_help);
+        builder.setMessage(R.string.help_app);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
             }
@@ -167,9 +158,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void appContact(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("Contact Us");
-        builder.setMessage("Adam Warrington - adamW@quickstudy.ca\nRuel John Cootauco - rueljC@quickstudy.ca\nRaymond Dang - raymondD@quickstudy.ca\n\nFor more inquiries, please visit our website quickstudy.ca");
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setTitle(R.string.app_contact);
+        builder.setMessage(R.string.contact_app);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
             }
@@ -177,10 +168,6 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
-
-    }
-    @Override
-    public void onBackPressed() {
 
     }
 }

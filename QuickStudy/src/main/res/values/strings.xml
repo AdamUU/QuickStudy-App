@@ -2,6 +2,7 @@
     <string name="app_name">QuickStudy</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="ok">OK</string>
 
     <string name="app_info">App Info</string>
     <string name="app_contact">Contact Us</string>
@@ -10,33 +11,33 @@
     <string name="app_google">Map</string>
     <string name="find_session">Find Session</string>
     <string name="create_session">Create Session</string>
+    <string name="qs_info">QuickStudy Information</string>
 
-
+    <string name="perm_check">Internet Access and Location Services required to navigate sessions.</string>
     <string name="endtag">CENG319 © CENGBOIZ 2017</string>
 
     <string name="name_create">Name</string>
     <string name="subject_create">Subject (Max 20 chars.)</string>
     <string name="subject_spinner">Subject</string>
     <string name="info_create">Additional Info (Max 40 chars.)</string>
+    <string name="date_create">Select Date</string>
     <string name="time_create">Select Time Closure</string>
     <string name="post_create">POST</string>
     <string name="post_validation">Please fill out everything including the time closure.\n Additional Info is optional.</string>
     <string name="post_info">Post Information</string>
     <string name="continue_button">CONTINUE</string>
     <string name="wrong_post">Not the post you are looking at? Click here to go back</string>
-
+    <string name="Recurring_Event">Recurring Scheduler</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_recurring">Select the days you would like to schedule an event</string>
+    <string name="settings">Settings</string>
+    <string name="lang_change">Change Language - English : French</string>
 
-    <!--<string-array name="subjects">
-        <item>Science</item>
-        <item>Math</item>
-        <item>Design and Technology</item>
-        <item>History</item>
-        <item>Geography</item>
-        <item>Art and Design</item>
-        <item>Music</item>
-        <item>Phys. Ed</item>
-        <item>English</item>
-        <item>Religion</item>
-    </string-array>-->
+    <string name="no_internet">No internet connection found.</string>
+    <string name="internet_perm">Internet Access required to create/find sessions.</string>
+
+    <string name="contact_app">Adam Warrington - adamW@quickstudy.ca\nRuel John Cootauco - rueljC@quickstudy.ca\nRaymond Dang - raymondD@quickstudy.ca\n\nFor more inquiries, please visit our website quickstudy.ca</string>
+    <string name="help_app">Q. How do I use this?\nA. There are two ways - you can create a session for people to come to you, or find one through the lists of hosts.\n\nQ. Do I need to pay?\nA. No.\n\nQ. Can I find any session anywhere?\nA. The app has a 0.5km radius to track other sessions.</string>
+    <string name="info_app">QuickStudy is an educational android app for students who are in search, or in aid of providing study sessions.</string>
+
 </resources>
