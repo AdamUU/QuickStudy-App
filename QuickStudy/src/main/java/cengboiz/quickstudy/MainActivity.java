@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout mDrawerLayout;
     ActionBarDrawerToggle mToggle;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

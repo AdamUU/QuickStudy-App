@@ -24,7 +24,7 @@
     <string name="post_info">Post Information</string>
     <string name="continue_button">CONTINUE</string>
     <string name="wrong_post">Not the post you are looking at? Click here to go back</string>
-
+    <string name="Recurring_Event">Recurring Scheduler</string>
     <string name="title_activity_maps">Map</string>
 
     <!--<string-array name="subjects">
