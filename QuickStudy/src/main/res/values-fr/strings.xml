@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickStudy</string>
+    <string name="app_contact">Contactez nous</string>
+    <string name="app_filter">Filtre</string>
+    <string name="app_google">Carte</string>
+    <string name="app_help">Aidez-moi</string>
+    <string name="app_info">Informations sur l\'application</string>
+    <string name="continue_button">CONTINUER</string>
+    <string name="info_create">Information additionnelle ( Max 40 caractères)</string>
+    <string name="name_create">Prénom</string>
+    <string name="post_create">POSTER</string>
+    <string name="post_info">Publier des informations</string>
+    <string name="post_validation">S\'il vous plaît remplir tout, y compris la fermeture de temps. Les informations supplémentaires sont facultatives.</string>
+    <string name="subject_create">Sujet (Max 20 caractères.)</string>
+    <string name="subject_spinner">Sujet</string>
+    <string name="time_create">Sélectionnez La Fermeture Du Temps</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="wrong_post">Pas le message que vous regardez? Cliquez ici pour revenir en arrière</string>
+    <string name="find_session">Trouver Une Session</string>
+    <string name="create_session">Créer Une Session</string>
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+</resources>
