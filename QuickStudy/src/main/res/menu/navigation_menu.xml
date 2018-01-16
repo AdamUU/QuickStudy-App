@@ -5,7 +5,7 @@
         android:id="@+id/create_recurring"
         android:title="@string/Recurring_Event"
         android:icon="@drawable/ic_add_circle_black_24dp"
-        app:showAsAction="never"/>
+        />
 
     <item
         android:id="@+id/find_nav"

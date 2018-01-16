@@ -54,21 +54,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
-                    case(R.id.create_nav):
-                        Intent ci = new Intent(getApplicationContext(),CreateActivity.class);
-                        startActivity(ci);
-                        break;
-
-                    case(R.id.find_nav):
-                        Intent fi = new Intent(getApplicationContext(),FindActivity.class);
-                        startActivity(fi);
-                        break;
-
-                    case(R.id.map_nav):
-                        Intent mi = new Intent(getApplicationContext(),MapsActivity.class);
-                        startActivity(mi);
-                        break;
-
+                    case(R.id.create_recurring):
+                    Intent recurringIntent = new Intent(getApplicationContext(),RecurringEvent.class);
+                        startActivity(recurringIntent);
                     default:
                         break;
                 }
