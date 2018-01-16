@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-
+// Team Name: cengboiz
 package cengboiz.quickstudy;
 
 import android.app.Application;
