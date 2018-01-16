@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-// Team Name: cengboiz
+
 package cengboiz.quickstudy;
 
 import android.content.Intent;
@@ -44,23 +44,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng yourLoc = new LatLng(43.728567, -79.607901);
+        mMap.addMarker(new MarkerOptions().position(yourLoc).title("YOUR LOCATION"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(yourLoc));
+
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(43.728567, -79.607901), 17));
     }
 
     @Override

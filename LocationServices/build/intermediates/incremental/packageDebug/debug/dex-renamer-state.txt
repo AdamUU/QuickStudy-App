@@ -1,0 +1,4 @@
+#Sun Dec 03 20:43:55 EST 2017
+base.0=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/LocationServices/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

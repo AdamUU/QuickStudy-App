@@ -1,1 +1,1 @@
-include ':QuickStudy'
+include ':app', ':QuickStudy', ':LocationServices', ':appmap'
