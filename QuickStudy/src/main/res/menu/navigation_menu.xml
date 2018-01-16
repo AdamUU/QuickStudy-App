@@ -2,20 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/create_nav"
-        android:title="@string/create_session"
+        android:id="@+id/create_recurring"
+        android:title="@string/Recurring_Event"
         android:icon="@drawable/ic_add_circle_black_24dp"
-        app:showAsAction="never"/>
+        />
 
     <item
-        android:id="@+id/find_nav"
-        android:title="@string/find_session"
+        android:id="@+id/setting"
+        android:title="@string/settings"
         android:icon="@drawable/ic_event_note_black_24dp"
         app:showAsAction="never"/>
 
-    <item
-        android:id="@+id/map_nav"
-        android:title="@string/app_google"
-        android:icon="@drawable/ic_room_black_24dp"
-        app:showAsAction="never"/>
 </menu>
