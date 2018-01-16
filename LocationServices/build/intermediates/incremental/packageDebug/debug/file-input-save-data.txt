@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Dec 03 20:43:55 EST 2017
-0.baseType=DIRECTORY
-0.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/LocationServices/build/intermediates/transforms/dexMerger/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1
