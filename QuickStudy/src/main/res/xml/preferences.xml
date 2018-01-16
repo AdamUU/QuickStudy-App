@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cengboiz.quickstudy.SettingsActivity">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="en"
+        android:summary="Change the language preference on QuickStudy from either English or French"
+        android:title="Change Language" />
+
+</PreferenceScreen>
