@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-// Team Name: cengboiz
+
 package cengboiz.quickstudy;
 
 import android.content.DialogInterface;
@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
                     case(R.id.create_recurring):
                     Intent recurringIntent = new Intent(getApplicationContext(),RecurringEvent.class);
                         startActivity(recurringIntent);
+                    case(R.id.setting):
+                        //Intent settingIntent = new Intent(getApplicationContext(),SettingsActivity.class);
+                        //startActivity(settingIntent);
                     default:
                         break;
                 }
