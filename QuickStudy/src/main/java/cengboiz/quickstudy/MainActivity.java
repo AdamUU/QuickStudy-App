@@ -4,7 +4,7 @@ Ruel John Cootauco - N01114847
 Adam Warrington - N01110575
 Raymond Dang - N01048235
 */
-// Team Name: cengboiz
+
 package cengboiz.quickstudy;
 
 import android.content.DialogInterface;
@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
     ImageButton createButton, findButton, mapButton;
     DrawerLayout mDrawerLayout;
     ActionBarDrawerToggle mToggle;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +57,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
-                    case(R.id.create_recurring):
-                    Intent recurringIntent = new Intent(getApplicationContext(),RecurringEvent.class);
-                        startActivity(recurringIntent);
+                    case(R.id.create_nav):
+                        Intent ci = new Intent(getApplicationContext(),CreateActivity.class);
+                        startActivity(ci);
+                        break;
+
+                    case(R.id.find_nav):
+                        Intent fi = new Intent(getApplicationContext(),FindActivity.class);
+                        startActivity(fi);
+                        break;
+
+                    case(R.id.map_nav):
+                        Intent mi = new Intent(getApplicationContext(),MapsActivity.class);
+                        startActivity(mi);
+                        break;
+
                     default:
                         break;
                 }
