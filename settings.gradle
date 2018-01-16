@@ -1,1 +1,1 @@
-include ':app', ':QuickStudy'
+include ':QuickStudy'
